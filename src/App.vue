@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <HosTop />
-    <div class="content">content</div>
+    <div class="content">
+      <router-view></router-view>
+    </div>
     <HosBottom />
   </div>
 </template>
@@ -13,9 +15,9 @@
   align-items: center;
 
   .content {
-    margin-top: 71px;
+    margin: 75px 0 100px 0;
     width: 1200px;
-    min-height: 800px;
+    min-height: 1200px;
     // background-color: pink;
   }
 }
